@@ -14,7 +14,7 @@ const Layout: React.FC<ILayout> = ({ children, title }) => {
         <title>{title} | Airbnb</title>
       </Head>
       <Header />
-      <div className="px-20 py-8">{children}</div>
+      <div className="py-8">{children}</div>
     </div>
   );
 };

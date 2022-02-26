@@ -1,9 +1,11 @@
+import { useRouter } from "next/router";
 import React from "react";
 
 const Header = () => {
+  const router = useRouter();
   return (
     <div className="flex justify-between items-center px-20 py-4 border-b-[1.3px]">
-      <div>
+      <div onClick={() => router.push("/")} className="cursor-pointer">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="w-24 h-12"

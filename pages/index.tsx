@@ -6,7 +6,7 @@ const Home: NextPage = () => {
   const router = useRouter();
   return (
     <Layout title={"Home"}>
-      <div className="grid grid-cols-4 gap-9">
+      <div className="grid grid-cols-4 gap-9 px-20">
         {[
           1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
         ].map((i) => (
